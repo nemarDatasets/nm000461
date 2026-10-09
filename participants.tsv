@@ -1,0 +1,149 @@
+participant_id	source_id	center	sex	age	demographics_source	ieeg_org_recording	source_sampling_frequency	ilae	engel	soz_laterality	soz_region	temporal	in_gw_set	in_LR_set	n_network_files
+sub-HUP064	HUP064	HUP	M	21	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP64_phaseII	512	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP065	HUP065	HUP	M	36	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP65_phaseII	512	n/a	n/a	right	temporal	1	1	0	5
+sub-HUP068	HUP068	HUP	n/a	n/a	n/a	HUP68_phaseII	512	n/a	n/a	right	temporal	1	1	0	5
+sub-HUP073	HUP073	HUP	n/a	n/a	n/a	HUP73_phaseII	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP074	HUP074	HUP	F	25	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP74_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP075	HUP075	HUP	F	57	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP75_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP078	HUP078	HUP	n/a	n/a	n/a	HUP78_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP080	HUP080	HUP	F	41	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP80_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP081	HUP081	HUP	n/a	n/a	n/a	HUP81_phaseII	512	n/a	n/a	bilateral	multifocal	0	1	0	5
+sub-HUP082	HUP082	HUP	F	56	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP82_phaseII	512	n/a	n/a	right	temporal	1	1	0	5
+sub-HUP083	HUP083	HUP	n/a	n/a	n/a	HUP83_phaseII	512	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP084	HUP084	HUP	n/a	n/a	n/a	HUP84_phaseII	512	5	3.1	left	temporal	1	1	1	10
+sub-HUP086	HUP086	HUP	F	25	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP86_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP087	HUP087	HUP	M	24	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP87_phaseII	512	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP088	HUP088	HUP	F	35	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP88_phaseII	512	3	1.4	left	mesial temporal	1	1	1	10
+sub-HUP089	HUP089	HUP	M	29	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP89_phaseII	512	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP093	HUP093	HUP	n/a	n/a	n/a	HUP093_phaseII	500	n/a	n/a	left	mesial temporal	1	1	0	5
+sub-HUP094	HUP094	HUP	F	48	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP094_phaseII	500	2	1.2	right	temporal	1	1	1	10
+sub-HUP096	HUP096	HUP	n/a	n/a	n/a	HUP096_phaseII	500	5	2.2	bilateral	temporal	1	0	1	5
+sub-HUP097	HUP097	HUP	F	39	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP097_phaseII	500	n/a	n/a	left	multifocal	0	1	0	5
+sub-HUP099	HUP099	HUP	n/a	n/a	n/a	HUP099_phaseII_D01	500	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP100	HUP100	HUP	n/a	n/a	n/a	HUP100_phaseII_D01	500	n/a	n/a	left	diffuse	0	1	1	10
+sub-HUP101	HUP101	HUP	n/a	n/a	n/a	HUP101_phaseII_D01	500	n/a	n/a	bilateral	multifocal	0	1	0	5
+sub-HUP102	HUP102	HUP	n/a	n/a	n/a	HUP102_phaseII	500	n/a	n/a	left	multifocal	0	0	1	5
+sub-HUP105	HUP105	HUP	M	39	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP105_phaseII	500	n/a	1.1	right	temporal neocortical	1	1	1	10
+sub-HUP106	HUP106	HUP	F	45	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP106_phaseII	500	2	1.2	left	temporal neocortical	1	1	0	5
+sub-HUP107	HUP107	HUP	M	36	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP107_phaseII	500	1	1.1	right	temporal neocortical	1	1	1	10
+sub-HUP108	HUP108	HUP	n/a	n/a	n/a	HUP108_phaseII	500	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-HUP110	HUP110	HUP	n/a	n/a	n/a	HUP110_phaseII_D01	500	n/a	n/a	left	diffuse	0	1	0	5
+sub-HUP111	HUP111	HUP	F	40	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP111_phaseII_D01	500	1	1.1	right	other cortex	0	1	1	10
+sub-HUP112	HUP112	HUP	F	21	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP112_phaseII	500	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP113	HUP113	HUP	n/a	n/a	n/a	HUP113_phaseII_D01	500	n/a	n/a	left	mesial temporal	1	1	0	5
+sub-HUP114	HUP114	HUP	F	43	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP114_phaseII	500	5	4.2	right	mesial temporal	1	0	1	5
+sub-HUP116	HUP116	HUP	F	59	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP116_phaseII	500	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP118	HUP118	HUP	n/a	n/a	n/a	HUP118_phaseII_D01	500	n/a	n/a	left	mesial temporal	1	0	1	5
+sub-HUP119	HUP119	HUP	n/a	n/a	n/a	HUP119_phaseII	500	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-HUP120	HUP120	HUP	n/a	n/a	n/a	HUP120_phaseII	500	n/a	n/a	bilateral	temporal multifocal	1	0	1	5
+sub-HUP121	HUP121	HUP	n/a	n/a	n/a	HUP121_phaseII	500	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP122	HUP122	HUP	n/a	n/a	n/a	HUP122_phaseII_D01	500	n/a	n/a	right	mesial temporal	1	0	1	5
+sub-HUP123	HUP123	HUP	M	36	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP123_phaseII_D01	500	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP126	HUP126	HUP	F	26	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP126_phaseII_D01	1024	1	1.1	left	mesial temporal	1	1	1	10
+sub-HUP127	HUP127	HUP	n/a	n/a	n/a	HUP127_phaseII	1024	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-HUP128	HUP128	HUP	n/a	n/a	n/a	HUP128_phaseII_D01	1024	4	2.2	left	temporal neocortical	1	1	1	10
+sub-HUP129	HUP129	HUP	n/a	n/a	n/a	HUP129_phaseII_D01	1024	n/a	n/a	right	other cortex	0	0	1	5
+sub-HUP130	HUP130	HUP	F	46	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP130_phaseII	1024	1	1.1	left	other cortex	0	1	1	10
+sub-HUP132	HUP132	HUP	F	47	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP132_phaseII_D01	512	5	4.2	left	temporal neocortical	1	0	1	5
+sub-HUP134	HUP134	HUP	M	32	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP134_phaseII_D01	1024	n/a	1.2	right	other cortex	0	1	1	10
+sub-HUP135	HUP135	HUP	M	37	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP135_phaseII	512	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP136	HUP136	HUP	n/a	n/a	n/a	HUP136_phaseII_D01	1024	n/a	n/a	left	multifocal	0	1	1	10
+sub-HUP137	HUP137	HUP	n/a	n/a	n/a	HUP137_phaseII_D01	512	n/a	n/a	bilateral	multifocal	0	0	1	5
+sub-HUP138	HUP138	HUP	M	38	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP138_phaseII	1024	3	2.1	left	mesial temporal	1	1	1	10
+sub-HUP139	HUP139	HUP	M	20	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP139_phaseII	1024	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP140	HUP140	HUP	F	47	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP140_phaseII_D01	1024	2	1.2	left	mesial temporal	1	1	1	10
+sub-HUP141	HUP141	HUP	M	30	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP141_phaseII	512	3	2.3	right	mesial temporal	1	1	1	10
+sub-HUP142	HUP142	HUP	M	30	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP142_phaseII	512	n/a	n/a	left	mesial temporal	1	1	0	5
+sub-HUP143	HUP143	HUP	n/a	n/a	n/a	HUP143_phaseII	1024	n/a	n/a	bilateral	multifocal	0	1	1	10
+sub-HUP144	HUP144	HUP	M	31	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP144_phaseII	512	n/a	n/a	right	temporal multifocal	1	1	0	5
+sub-HUP145	HUP145	HUP	n/a	n/a	n/a	HUP145_phaseII	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP146	HUP146	HUP	M	16	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP146_phaseII	1024	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP147	HUP147	HUP	n/a	n/a	n/a	HUP147_phaseII_D01	1024	n/a	n/a	left	multifocal	0	1	0	5
+sub-HUP148	HUP148	HUP	M	23	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP148_phaseII_D01	1024	3	2.2	bilateral	temporal multifocal	1	1	1	10
+sub-HUP149	HUP149	HUP	n/a	n/a	n/a	HUP149_phaseII_D01	512	n/a	n/a	bilateral	multifocal	0	1	1	10
+sub-HUP150	HUP150	HUP	M	17	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP150_phaseII	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP151	HUP151	HUP	n/a	n/a	n/a	HUP151_phaseII	512	1	1.1	right	frontal	0	1	1	10
+sub-HUP152	HUP152	HUP	n/a	n/a	n/a	HUP152_phaseII_D01	512	n/a	n/a	left	diffuse	0	0	1	5
+sub-HUP153	HUP153	HUP	n/a	n/a	n/a	HUP153_phaseII_D01	512	n/a	n/a	bilateral	temporal	1	1	1	10
+sub-HUP154	HUP154	HUP	n/a	n/a	n/a	HUP154_phaseII	512	n/a	n/a	bilateral	diffuse	0	1	0	5
+sub-HUP155	HUP155	HUP	n/a	n/a	n/a	HUP155_phaseII	512	n/a	n/a	bilateral	other cortex	0	1	1	10
+sub-HUP156	HUP156	HUP	n/a	n/a	n/a	HUP156_phaseII_D01	1024	n/a	n/a	bilateral	temporal	1	1	1	10
+sub-HUP157	HUP157	HUP	M	25	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP157_phaseII	1024	2	1.2	left	temporal	1	1	1	10
+sub-HUP158	HUP158	HUP	M	32	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP158_phaseII	512	4	3.1	right	other cortex	0	1	1	10
+sub-HUP159	HUP159	HUP	n/a	n/a	n/a	HUP159_phaseII_D01	512	n/a	n/a	left	temporal neocortical	1	1	1	10
+sub-HUP160	HUP160	HUP	F	45	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP160_phaseII	1024	1	1.1	right	multifocal	0	1	1	10
+sub-HUP161	HUP161	HUP	n/a	n/a	n/a	HUP161_phaseII	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP162	HUP162	HUP	F	35	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP162_phaseII	1024	4	3.1	left	mesial temporal	1	0	1	5
+sub-HUP163	HUP163	HUP	F	42	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP163_phaseII	1024	n/a	1.4	left	mesial temporal	1	0	1	5
+sub-HUP164	HUP164	HUP	F	34	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP164_phaseII	1024	3	1.4	left	mesial temporal	1	0	1	5
+sub-HUP165	HUP165	HUP	F	21	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP165_phaseII	1024	3	2.2	bilateral	mesial temporal	1	1	1	10
+sub-HUP166	HUP166	HUP	M	26	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP166_phaseII	1024	4	3.1	left	other cortex	0	1	1	10
+sub-HUP167	HUP167	HUP	n/a	n/a	n/a	HUP167_phaseII_D01	512	n/a	n/a	bilateral	diffuse	0	1	1	10
+sub-HUP168	HUP168	HUP	n/a	n/a	n/a	HUP168_phaseII_D01	1024	n/a	n/a	bilateral	multifocal	0	0	1	5
+sub-HUP169	HUP169	HUP	n/a	n/a	n/a	HUP169_phaseII	512	n/a	n/a	bilateral	temporal	1	1	1	10
+sub-HUP170	HUP170	HUP	n/a	n/a	n/a	HUP170_phaseII	512	4	3.1	right	other cortex	0	1	1	10
+sub-HUP171	HUP171	HUP	M	50	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP171_phaseII	512	4	3.1	left	other cortex	0	1	1	10
+sub-HUP172	HUP172	HUP	F	28	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP172_phaseII	512	2	1.2	left	other cortex	0	1	1	10
+sub-HUP173	HUP173	HUP	F	24	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP173_phaseII	256	1	1.1	right	mesial temporal	1	1	1	10
+sub-HUP174	HUP174	HUP	n/a	n/a	n/a	HUP174_phaseII	512	n/a	n/a	left	temporal	1	1	1	10
+sub-HUP175	HUP175	HUP	n/a	n/a	n/a	HUP175_phaseII	512	n/a	n/a	diffuse	diffuse	0	1	0	5
+sub-HUP176	HUP176	HUP	n/a	n/a	n/a	HUP176_phaseII	512	5	4.2	n/a	n/a	0	0	1	5
+sub-HUP177	HUP177	HUP	F	42	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP177_phaseII	512	1	1.1	right	temporal	1	1	1	10
+sub-HUP178	HUP178	HUP	n/a	n/a	n/a	HUP178_phaseII	512	n/a	n/a	right	temporal	1	1	1	10
+sub-HUP179	HUP179	HUP	F	20	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP179_phaseII_D01	512	3	2.2	left	other cortex	0	1	1	10
+sub-HUP180	HUP180	HUP	F	28	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP180_phaseII	512	n/a	n/a	left	other cortex	0	1	0	5
+sub-HUP181	HUP181	HUP	F	31	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP181_phaseII_D01	512	3	2.2	left	mesial temporal	1	1	1	10
+sub-HUP182	HUP182	HUP	n/a	n/a	n/a	HUP182_phaseII	512	n/a	n/a	bilateral	n/a	0	1	1	10
+sub-HUP183	HUP183	HUP	n/a	n/a	n/a	HUP183_phaseII	1024	n/a	n/a	n/a	n/a	0	0	1	5
+sub-HUP184	HUP184	HUP	n/a	n/a	n/a	HUP184_phaseII	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP185	HUP185	HUP	M	38	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP185_phaseII	512	1	1.1	left	mesial temporal	1	1	1	10
+sub-HUP186	HUP186	HUP	n/a	n/a	n/a	HUP186_phaseII	512	n/a	n/a	left	temporal	1	1	1	10
+sub-HUP187	HUP187	HUP	M	25	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP187_phaseII	512	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP188	HUP188	HUP	F	24	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP188_phaseII	512	3	3.1	left	other cortex	0	1	1	10
+sub-HUP189	HUP189	HUP	n/a	n/a	n/a	HUP189_phaseII	512	n/a	n/a	left	temporal neocortical	1	1	0	5
+sub-HUP190	HUP190	HUP	M	25	OpenNeuro ds004100 v1.1.3 participants.tsv (NEMAR on004100, CC0)	HUP190_phaseII	1024	1	1.1	left	mesial temporal	1	1	1	10
+sub-HUP191	HUP191	HUP	n/a	n/a	n/a	HUP191_phaseII	512	3	2.2	bilateral	mesial temporal	1	0	1	5
+sub-HUP192	HUP192	HUP	n/a	n/a	n/a	HUP192_phaseII	1024	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-HUP193	HUP193	HUP	n/a	n/a	n/a	HUP193_phaseII_D01	256	n/a	n/a	left	temporal neocortical	1	1	0	5
+sub-HUP194	HUP194	HUP	n/a	n/a	n/a	HUP194_phaseII_D01	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP196	HUP196	HUP	n/a	n/a	n/a	HUP196_phaseII	512	n/a	n/a	right	other cortex	0	1	0	5
+sub-HUP197	HUP197	HUP	n/a	n/a	n/a	HUP197_phaseII_D01	512	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP199	HUP199	HUP	n/a	n/a	n/a	HUP199_phaseII	512	n/a	3.1	bilateral	mesial temporal	1	1	1	10
+sub-HUP202	HUP202	HUP	n/a	n/a	n/a	HUP202_phaseII	512	n/a	n/a	left	mesial temporal	1	1	1	10
+sub-HUP203	HUP203	HUP	n/a	n/a	n/a	HUP203_phaseII	512	n/a	n/a	bilateral	n/a	0	1	1	10
+sub-HUP204	HUP204	HUP	n/a	n/a	n/a	HUP204_phaseII	512	n/a	n/a	left	mesial temporal	1	1	0	5
+sub-HUP205	HUP205	HUP	n/a	n/a	n/a	HUP205_phaseII	512	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-HUP207	HUP207	HUP	n/a	n/a	n/a	HUP207_phaseII	512	n/a	n/a	left	temporal neocortical	1	1	0	5
+sub-HUP208	HUP208	HUP	n/a	n/a	n/a	HUP208_phaseII_D01	1024	n/a	n/a	left	temporal	1	1	0	5
+sub-HUP209	HUP209	HUP	n/a	n/a	n/a	HUP209_phaseII_D01	1024	n/a	n/a	left	temporal neocortical	1	1	0	5
+sub-HUP210	HUP210	HUP	n/a	n/a	n/a	HUP210_phaseII	1024	n/a	n/a	left	diffuse	0	1	0	5
+sub-HUP211	HUP211	HUP	n/a	n/a	n/a	HUP211_phaseII	512	n/a	n/a	bilateral	temporal	1	0	1	5
+sub-HUP213	HUP213	HUP	n/a	n/a	n/a	HUP213_phaseII_D01	1024	n/a	n/a	left	multifocal	0	1	0	5
+sub-HUP214	HUP214	HUP	n/a	n/a	n/a	HUP214_phaseII_D01	1024	n/a	n/a	bilateral	mesial temporal	1	0	1	5
+sub-HUP215	HUP215	HUP	n/a	n/a	n/a	HUP215_phaseII_D01	2048	n/a	n/a	left	temporal neocortical	1	1	0	5
+sub-HUP216	HUP216	HUP	n/a	n/a	n/a	HUP216_phaseII_D01	512	n/a	n/a	left	other cortex	0	1	1	10
+sub-HUP218	HUP218	HUP	n/a	n/a	n/a	HUP218_phaseII_D01	1024	n/a	n/a	right	mesial temporal	1	1	0	5
+sub-HUP221	HUP221	HUP	n/a	n/a	n/a	HUP221_phaseII	1024	n/a	n/a	right	mesial temporal	1	0	1	5
+sub-HUP223	HUP223	HUP	n/a	n/a	n/a	HUP223_phaseII	1024	n/a	n/a	left	mesial temporal	1	1	1	10
+sub-HUP224	HUP224	HUP	n/a	n/a	n/a	HUP224_phaseII	1024	n/a	n/a	bilateral	mesial temporal	1	1	1	10
+sub-MP0001	MP0001	MUSC	n/a	n/a	n/a	MP0001_D01	512	n/a	n/a	bilateral	n/a	1	1	1	10
+sub-MP0002	MP0002	MUSC	n/a	n/a	n/a	MP0002_D01	2048	n/a	n/a	n/a	n/a	0	1	1	10
+sub-MP0003	MP0003	MUSC	n/a	n/a	n/a	MP0003	2048	n/a	n/a	bilateral	n/a	1	0	1	5
+sub-MP0004	MP0004	MUSC	n/a	n/a	n/a	MP0004_D02	2048	n/a	n/a	left	n/a	1	1	1	10
+sub-MP0006	MP0006	MUSC	n/a	n/a	n/a	MP0006_D01	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0010	MP0010	MUSC	n/a	n/a	n/a	MP0010_D01	2048	n/a	n/a	bilateral	n/a	1	1	1	10
+sub-MP0011	MP0011	MUSC	n/a	n/a	n/a	MP0011_D01	512	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0013	MP0013	MUSC	n/a	n/a	n/a	MP0013_D01	512	n/a	n/a	left	n/a	1	1	1	10
+sub-MP0014	MP0014	MUSC	n/a	n/a	n/a	MP0014_D01	512	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0018	MP0018	MUSC	n/a	n/a	n/a	MP0018_D01	512	n/a	n/a	left	n/a	1	1	1	10
+sub-MP0021	MP0021	MUSC	n/a	n/a	n/a	MP0021_D01	2048	n/a	n/a	right	n/a	1	0	1	5
+sub-MP0022	MP0022	MUSC	n/a	n/a	n/a	MP0022_D01	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0026	MP0026	MUSC	n/a	n/a	n/a	3T_MP0026	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0027	MP0027	MUSC	n/a	n/a	n/a	3T_MP0027	2048	n/a	n/a	left	n/a	1	1	1	10
+sub-MP0028	MP0028	MUSC	n/a	n/a	n/a	3T_MP0028	2048	n/a	n/a	left	n/a	1	1	1	10
+sub-MP0029	MP0029	MUSC	n/a	n/a	n/a	3T_MP0029	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0031	MP0031	MUSC	n/a	n/a	n/a	3T_MP0031	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0033	MP0033	MUSC	n/a	n/a	n/a	3T_MP0033_D02	512	n/a	n/a	right	n/a	1	0	1	5
+sub-MP0035	MP0035	MUSC	n/a	n/a	n/a	3T_MP0035	2048	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0036	MP0036	MUSC	n/a	n/a	n/a	3T_MP0036	512	n/a	n/a	right	n/a	1	1	1	10
+sub-MP0037	MP0037	MUSC	n/a	n/a	n/a	3T_MP0037_D01	2048	n/a	n/a	bilateral	n/a	1	1	1	10

@@ -1,0 +1,66 @@
+{
+  "Description": "Functional-connectivity networks of one 2-minute interictal iEEG epoch (epoch 5 of 5) for HUP087, as released in files/HUP/gw/result/HUP087_5.mat (byte-identical copy of the sourcedata file). MATLAB variables: 'results' and 'full_ind'.",
+  "ChannelSet": "'gw': all artefact-free contacts localised to grey or white matter (analysis set of the manuscript)",
+  "Center": "HUP",
+  "SourceRecording": "HUP87_phaseII (iEEG.org)",
+  "SourceSamplingFrequency": 512.0,
+  "results": {
+    "MATLABSize": [
+      2,
+      24,
+      71,
+      71
+    ],
+    "Dimensions": [
+      "re-referencing (2)",
+      "measure (24)",
+      "channel",
+      "channel"
+    ],
+    "ReReferencing": [
+      "CAR (common average re-referencing)",
+      "BR (bipolar re-referencing)"
+    ],
+    "Measures": [
+      "Pearson",
+      "SquaredPearson",
+      "CrossCorr",
+      "Coherence-Delta",
+      "Coherence-Theta",
+      "Coherence-Alpha",
+      "Coherence-Beta",
+      "Coherence-Gamma",
+      "Coherence-Ripple",
+      "Coherence-Broad",
+      "PLV-Delta",
+      "PLV-Theta",
+      "PLV-Alpha",
+      "PLV-Beta",
+      "PLV-Gamma",
+      "PLV-Ripple",
+      "PLV-Broad",
+      "RelativeEntropy-Delta",
+      "RelativeEntropy-Theta",
+      "RelativeEntropy-Alpha",
+      "RelativeEntropy-Beta",
+      "RelativeEntropy-Gamma",
+      "RelativeEntropy-Ripple",
+      "RelativeEntropy-Broad"
+    ],
+    "FrequencyBands": {
+      "Delta": "0.5-4 Hz",
+      "Theta": "4-8 Hz",
+      "Alpha": "8-12 Hz",
+      "Beta": "12-30 Hz",
+      "Gamma": "30-80 Hz",
+      "Ripple": "80-250 Hz",
+      "Broad": "0.5-250 Hz"
+    },
+    "Notes": "Measures computed in 2-s windows and averaged over the epoch; coherence, PLV and relative entropy per band; relative entropy taken in the direction of the higher value (Shi et al. 2024). Cells are NaN where a channel was not available for that re-referencing."
+  },
+  "full_ind": "MATLAB cell (1 x 2, one per re-referencing method): logical mask of the channels (gw) or of the 36 slots (LR) that carry values",
+  "SegmentWindow": "82909 83029",
+  "SegmentWindowNote": "Row n of patientList.time as released (start/stop of the epoch; units as in the authors' code, not stated in the release)",
+  "GeneratedBy": "https://github.com/penn-cnt/CNT_Preprocessing_Toolkit (demo/ana_pipeline.m)",
+  "ChannelsNote": "patientList chan_gw has 73 names but the network has 71 rows; channel order not stated in the release"
+}

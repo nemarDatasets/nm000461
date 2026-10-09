@@ -1,0 +1,45 @@
+{
+  "Name": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CDLA-Sharing-1.0",
+  "Authors": [
+    "Haoer Shi",
+    "Akash Pattnaik",
+    "Erin Conrad"
+  ],
+  "Acknowledgements": "Original release on Pennsieve Discover (dataset 355 version 1, Penn CNT). Article authors: Haoer Shi, Akash Ranjan Pattnaik, Carlos Aguila, Alfredo Lucas, Nishant Sinha, Brian Prager, Marissa Mojena, Ryan Gallagher, Alexandra Parashos, Leonardo Bonilha, Ezequiel Gleichgerrcht, Kathryn A. Davis, Brian Litt, Erin C. Conrad.",
+  "HowToAcknowledge": "Cite the source dataset (Shi H, Pattnaik A, Conrad E. iEEG networks preprocessing study. Pennsieve 2023, doi:10.26275/4p8l-n5kt) and the article (Shi H, Pattnaik AR, et al. Utility of intracranial EEG networks depends on re-referencing and connectivity choice. Brain Communications 2024;6(3):fcae165, doi:10.1093/braincomms/fcae165).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.26275/4p8l-n5kt",
+    "https://discover.pennsieve.io/datasets/355/version/1",
+    "https://doi.org/10.1093/braincomms/fcae165",
+    "https://github.com/penn-cnt/CNT_Preprocessing_Toolkit"
+  ],
+  "EthicsApprovals": [
+    "iEEG and imaging data collection for research was approved by the Institutional Review Boards of the Hospital of the University of Pennsylvania (HUP) and Medical University of South Carolina (MUSC). [verbatim, Shi et al., Brain Communications 2024, doi:10.1093/braincomms/fcae165, Materials and methods, Patient information]"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "CNT_Preprocessing_Toolkit",
+      "Description": "Authors' pipeline (re-referencing + connectivity, demo/ana_pipeline.m) that produced the released networks",
+      "CodeURL": "https://github.com/penn-cnt/CNT_Preprocessing_Toolkit"
+    },
+    {
+      "Name": "b3pen NEMAR repackaging",
+      "Description": "BIDS repackaging for NEMAR (iEEG campaign 2026-10): released files under sourcedata/, each network file also placed in its subject folder with a JSON sidecar, participants.tsv from patientList.mat. No values recomputed."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.26275/4p8l-n5kt",
+      "URL": "https://discover.pennsieve.io/datasets/355/version/1",
+      "Version": "1"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds004100.v1.1.3",
+      "URL": "https://openneuro.org/datasets/ds004100",
+      "Description": "age/sex for the HUP patients that are in ds004100 (NEMAR mirror on004100)"
+    }
+  ]
+}

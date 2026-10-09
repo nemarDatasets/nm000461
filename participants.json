@@ -1,0 +1,60 @@
+{
+  "participant_id": {
+    "Description": "BIDS label = patient code used in the release (HUP### / MP#### for MUSC, public pseudonyms of the source)"
+  },
+  "source_id": {
+    "Description": "Patient code in the release (patientList.patient)"
+  },
+  "center": {
+    "Description": "Recording centre",
+    "Levels": {
+      "HUP": "Hospital of the University of Pennsylvania",
+      "MUSC": "Medical University of South Carolina"
+    }
+  },
+  "sex": {
+    "Description": "From OpenNeuro ds004100 participants.tsv (HUP patients in that dataset only); not in the Pennsieve release",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "From OpenNeuro ds004100 participants.tsv (HUP patients in that dataset only); not in the Pennsieve release",
+    "Units": "year"
+  },
+  "demographics_source": {
+    "Description": "Source of sex/age"
+  },
+  "ieeg_org_recording": {
+    "Description": "iEEG.org recording name (patientList.filename)"
+  },
+  "source_sampling_frequency": {
+    "Description": "Sampling rate of the iEEG.org recording (patientList.fs)",
+    "Units": "Hz"
+  },
+  "ilae": {
+    "Description": "patientList.ILAE as released (surgical outcome, ILAE class; n/a where empty)"
+  },
+  "engel": {
+    "Description": "patientList.Engel as released (numeric coding of the Engel class as in the release, e.g. 3.1)"
+  },
+  "soz_laterality": {
+    "Description": "patientList.soz as released (seizure onset zone laterality)"
+  },
+  "soz_region": {
+    "Description": "patientList.region as released (HUP only)"
+  },
+  "temporal": {
+    "Description": "patientList.istemp as released (1 = temporal seizure onset)"
+  },
+  "in_gw_set": {
+    "Description": "1 = networks in the grey/white (gw) analysis set"
+  },
+  "in_LR_set": {
+    "Description": "1 = networks in the left/right (LR) lateralisation set"
+  },
+  "n_network_files": {
+    "Description": "Number of network files for this patient (5 epochs per set)"
+  }
+}
