@@ -41,5 +41,7 @@
       "URL": "https://openneuro.org/datasets/ds004100",
       "Description": "age/sex for the HUP patients that are in ds004100 (NEMAR mirror on004100)"
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000461",
+  "Version": "1.0.0"
 }
