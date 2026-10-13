@@ -1,11 +1,38 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
+  "description": "A derivative dataset of intracranial EEG functional-connectivity networks computed for 148 epilepsy patients from the Hospital of the University of Pennsylvania and the Medical University of South Carolina. Networks cover two re-referencing schemes (common average and bipolar) crossed with 24 connectivity measures, computed on 2-minute interictal epochs. The dataset contains no time series and supports evaluating how re-referencing and connectivity choice affect the utility of iEEG networks.",
+  "methods_description": "Networks were computed with the authors' CNT_Preprocessing_Toolkit from 2-minute interictal iEEG epochs (up to 5 per patient). Two re-referencing schemes (CAR, bipolar) were crossed with 24 connectivity measures: Pearson, squared Pearson, cross-correlation, and coherence, phase-locking value and relative entropy in delta, theta, alpha, beta, gamma, ripple and broadband bands. Results are stored as MAT files with JSON sidecars.",
+  "license": "CDLA-Sharing-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Haoer Shi": {},
     "Akash Pattnaik": {},
     "Erin Conrad": {}
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "re-referencing"
+    },
+    {
+      "term": "brain networks"
+    },
+    {
+      "term": "interictal"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.26275/4p8l-n5kt",
@@ -33,14 +60,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
-  "license": "CDLA-Sharing-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "1.94 GB (941 files)"
   ],
@@ -50,31 +74,8 @@
     ".json",
     ".mat",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A derivative BIDS-iEEG dataset of functional-connectivity networks computed from interictal intracranial EEG of 148 epilepsy patients at HUP and MUSC. Networks cover two re-referencing schemes (common average and bipolar) crossed with 24 connectivity measures, including correlation, coherence, phase-locking value and relative entropy across frequency bands. It accompanies a study of how re-referencing and connectivity choice affect the utility of iEEG networks. It contains no time series; raw recordings are hosted on iEEG.org.",
-  "methods_description": "Two-minute interictal iEEG epochs (up to five per patient) were re-referenced (common average, bipolar) and used to compute 24 connectivity measures (Pearson, squared Pearson, cross-correlation, coherence, phase-locking value, relative entropy in delta to ripple and broadband bands) with the CNT_Preprocessing_Toolkit. Networks are stored as MAT files with JSON sidecars for grey/white matter and left/right channel sets.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "functional connectivity"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "re-referencing"
-    },
-    {
-      "term": "brain networks"
-    },
-    {
-      "term": "derivative dataset"
-    }
-  ],
-  "source_hash": "632a938cb4ff637f810be41b3c97b0945616149bb2b12aaa097760e60a202113"
+  "source_hash": "dcbae45b8ec80fa836c2aa05bc33c82a336d9a48c80db7dacc7318e8b05c209e"
 }
