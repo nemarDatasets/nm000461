@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Shi-2024-utility-10.1093/braincomms/fcae165",
+  "title": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
   "description": "A derivative BIDS-iEEG repackaging of functional-connectivity networks computed from interictal intracranial EEG of 148 epilepsy patients from two centres (HUP and MUSC). Networks cover two re-referencing schemes (common average and bipolar) and 24 connectivity measures across canonical frequency bands, for 2-minute interictal epochs. The dataset supports evaluating how re-referencing and connectivity choices affect the clinical utility of iEEG networks. It contains no time series; the raw recordings are hosted on iEEG.org.",
   "methods_description": "Networks were computed with the authors' CNT_Preprocessing_Toolkit pipeline from 2-minute interictal iEEG epochs (up to 5 per patient). Two re-referencing schemes (common average, bipolar) were combined with 24 connectivity measures: Pearson, squared Pearson, cross-correlation, coherence, phase-locking value and relative entropy. The spectral measures were computed in delta, theta, alpha, beta, gamma, ripple and broadband ranges. Channel sets were grey/white matter or left/right hemisphere.",
   "license": "CDLA-Sharing-1.0",
@@ -79,5 +79,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "1f16acee88345caae31831ec37c452da0f4341c69c4df0ba148c4738fe882657"
+  "source_hash": "0f117ed0ceeb67dc2f0df288b49f4271bb2e7ce06758acbe598c927c57fe0e26"
 }

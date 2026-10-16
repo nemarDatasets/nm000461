@@ -1,5 +1,5 @@
 {
-  "Name": "Shi-2024-utility-10.1093/braincomms/fcae165",
+  "Name": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CDLA-Sharing-1.0",
@@ -43,5 +43,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000461",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
