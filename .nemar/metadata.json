@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
-  "title": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
-  "description": "A derivative dataset of intracranial EEG functional-connectivity networks computed for 148 epilepsy patients from the Hospital of the University of Pennsylvania and the Medical University of South Carolina. Networks cover two re-referencing schemes (common average and bipolar) crossed with 24 connectivity measures, computed on 2-minute interictal epochs. The dataset contains no time series and supports evaluating how re-referencing and connectivity choice affect the utility of iEEG networks.",
-  "methods_description": "Networks were computed with the authors' CNT_Preprocessing_Toolkit from 2-minute interictal iEEG epochs (up to 5 per patient). Two re-referencing schemes (CAR, bipolar) were crossed with 24 connectivity measures: Pearson, squared Pearson, cross-correlation, and coherence, phase-locking value and relative entropy in delta, theta, alpha, beta, gamma, ripple and broadband bands. Results are stored as MAT files with JSON sidecars.",
+  "pipeline_stage": "validated",
+  "title": "Shi-2024-utility-10.1093/braincomms/fcae165",
+  "description": "A derivative BIDS-iEEG repackaging of functional-connectivity networks computed from interictal intracranial EEG of 148 epilepsy patients from two centres (HUP and MUSC). Networks cover two re-referencing schemes (common average and bipolar) and 24 connectivity measures across canonical frequency bands, for 2-minute interictal epochs. The dataset supports evaluating how re-referencing and connectivity choices affect the clinical utility of iEEG networks. It contains no time series; the raw recordings are hosted on iEEG.org.",
+  "methods_description": "Networks were computed with the authors' CNT_Preprocessing_Toolkit pipeline from 2-minute interictal iEEG epochs (up to 5 per patient). Two re-referencing schemes (common average, bipolar) were combined with 24 connectivity measures: Pearson, squared Pearson, cross-correlation, coherence, phase-locking value and relative entropy. The spectral measures were computed in delta, theta, alpha, beta, gamma, ripple and broadband ranges. Channel sets were grey/white matter or left/right hemisphere.",
   "license": "CDLA-Sharing-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,10 +13,9 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "functional connectivity"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
       "term": "Epilepsy",
@@ -24,10 +23,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "re-referencing"
+      "term": "intracranial EEG"
     },
     {
-      "term": "brain networks"
+      "term": "functional connectivity"
+    },
+    {
+      "term": "re-referencing"
     },
     {
       "term": "interictal"
@@ -77,5 +79,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "dcbae45b8ec80fa836c2aa05bc33c82a336d9a48c80db7dacc7318e8b05c209e"
+  "source_hash": "1f16acee88345caae31831ec37c452da0f4341c69c4df0ba148c4738fe882657"
 }
