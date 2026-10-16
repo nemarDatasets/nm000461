@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG networks preprocessing study (Shi, Pattnaik et al. 2024; HUP + MUSC): functional-connectivity networks for 2 re-referencing x 24 connectivity pipelines (derivative)",
-  "description": "A derivative BIDS-iEEG repackaging of functional-connectivity networks computed from interictal intracranial EEG of 148 epilepsy patients from two centres (HUP and MUSC). Networks cover two re-referencing schemes (common average and bipolar) and 24 connectivity measures across canonical frequency bands, for 2-minute interictal epochs. The dataset supports evaluating how re-referencing and connectivity choices affect the clinical utility of iEEG networks. It contains no time series; the raw recordings are hosted on iEEG.org.",
-  "methods_description": "Networks were computed with the authors' CNT_Preprocessing_Toolkit pipeline from 2-minute interictal iEEG epochs (up to 5 per patient). Two re-referencing schemes (common average, bipolar) were combined with 24 connectivity measures: Pearson, squared Pearson, cross-correlation, coherence, phase-locking value and relative entropy. The spectral measures were computed in delta, theta, alpha, beta, gamma, ripple and broadband ranges. Channel sets were grey/white matter or left/right hemisphere.",
+  "description": "Derivative dataset of functional-connectivity networks computed from interictal intracranial EEG of 148 epilepsy patients (127 HUP, 21 MUSC). For each 2-minute epoch it provides networks for two re-referencing schemes (common average and bipolar) crossed with 24 connectivity measures across frequency bands. It repackages the Pennsieve Discover release (dataset 355, version 1; authors Haoer Shi, Akash Pattnaik and Erin Conrad) accompanying the article 'Utility of intracranial EEG networks depends on re-referencing and connectivity choice' (Shi, Pattnaik et al., Brain Communications 2024). The dataset authors are those of the source Pennsieve release; the additional article co-authors (Aguila, Lucas, Sinha, Prager, Mojena, Gallagher, Parashos, Bonilha, Gleichgerrcht, Davis, Litt) are credited in the BIDS Acknowledgements and in the cited article. The dataset contains no raw time series.",
+  "methods_description": "Networks were computed with the CNT_Preprocessing_Toolkit pipeline from 2-minute interictal iEEG epochs, applying CAR or bipolar re-referencing and 24 connectivity measures (Pearson, squared Pearson, cross-correlation, coherence, phase-locking value, relative entropy across delta to ripple and broadband bands). Results are stored as channel-by-channel matrices in MAT files with JSON sidecars.",
   "license": "CDLA-Sharing-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,17 +13,10 @@
   },
   "keywords": [
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
       "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG"
     },
     {
       "term": "functional connectivity"
@@ -32,7 +25,12 @@
       "term": "re-referencing"
     },
     {
-      "term": "interictal"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "brain networks"
     }
   ],
   "related_identifiers": [
